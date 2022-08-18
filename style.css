@@ -114,12 +114,14 @@ body{
     font-weight: 500;
     border: 1px solid var(--primary);
     transition: all 0.4s ease-in-out;
+    user-select: none;
 }
 
 .header .btn:hover{
     background-color: var(--lightgray);
     color: var(--primary-text);
     border: 1px solid var(--lightgray-border);
+    cursor: pointer;
 }
 
 main{
