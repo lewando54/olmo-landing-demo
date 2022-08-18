@@ -272,52 +272,52 @@ section{
     color: var(--secondary);
 }
 
-.iwd{
+.image-with-desc{
     margin-top: 4rem;
     padding: 0 7rem;
 }
 
-.iwd--container{
+.image-with-desc--container{
     display: flex;
     justify-content: space-between;
 }
 
-.iwd--container img{
+.image-with-desc--container img{
     width: 45%;
 }
 
-.iwd--container__reverse{
+.image-with-desc--container__reverse{
     flex-direction: row-reverse;
 }
 
-.iwd--text-wrapper{
+.image-with-desc--text-wrapper{
     margin-top: 5rem;
     width: 47%;
 }
 
-.iwd--small-caps{
+.image-with-desc--small-caps{
     text-transform: uppercase;
     color: var(--secondary);
     font-weight: 500;
     margin: 0;
 }
 
-.iwd--heading{
+.image-with-desc--heading{
     font-size: 3.15rem;
     font-weight: 500;
     margin-top: 2rem;
     margin-bottom: 0;
 }
 
-.iwd--heading__small{
+.image-with-desc--heading__small{
     font-size: 1.5rem;
 }
 
-.iwd--text-wrapper ul{
+.image-with-desc--text-wrapper ul{
     padding-left: 1rem;
 }
 
-.wmod{
+.what-makes-diff{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -326,7 +326,7 @@ section{
     padding: 0 4rem;
 }
 
-.wmod--container{
+.what-makes-diff--container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -336,15 +336,15 @@ section{
     border-radius: 1.5rem;
 }
 
-.wmod--container img{
+.what-makes-diff--container img{
     width: 16rem;
 }
 
-.wmod--container p{
+.what-makes-diff--container p{
     margin-top: 0.5rem;
 }
 
-.wmod--heading{
+.what-makes-diff--heading{
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 0;
