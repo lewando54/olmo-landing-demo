@@ -173,6 +173,10 @@
         width: 9rem;
     }
 
+    .get-started--heading{
+        font-size: 2.5rem;
+    }
+
     .footer--top{
         display: flex;
         justify-content: space-between;
@@ -185,7 +189,7 @@
     }
 
     .footer--section:not(:first-child){
-        /* flex: 1; */
+        flex: 1;
     }
 }
 
