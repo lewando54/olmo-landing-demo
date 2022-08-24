@@ -1,0 +1,423 @@
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+    :root{
+        font-size: 13px;
+    }
+
+    .header--nav{
+        padding: 1.7rem 1.3rem 6rem 1.3rem;
+    }
+
+    .header--nav__is-pinned{
+        padding-bottom: 0.6rem;
+        padding-top: 0.6rem;
+    }
+
+    .pros{
+        padding: 0 3rem;
+    }
+
+    .numbers--container{
+        margin: 0 3rem;
+        justify-content: space-between;
+    }
+
+    .image-with-desc{
+        padding: 0 3rem;
+    }
+
+    .what-makes-diff{
+        padding: 0 3rem;
+    }
+
+    .omarket{
+        margin: 0 3rem;
+        padding: 5rem 5rem;
+    }
+
+    .team{
+        padding: 0 3rem;
+        padding-bottom: 5rem;
+        justify-content: space-between;
+    }
+
+    .team--person-container{
+        width: 18rem;
+    }
+
+    .brands--companies{
+        padding: 1rem 7rem;
+    }
+
+    .brands--companies img{
+        width: 10rem;
+    }
+
+    .get-started{
+        padding: 0 3rem;
+    }
+
+    footer{
+        padding: 2rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .nav--menu{
+        display: none;
+    }
+
+    .nav--menu__mobile{
+        display: block;
+        margin: 0;
+    }
+
+    .header{
+        background-color: white;
+        box-shadow: 0px 0px 7px rgba(0,0,0,0.1);
+        position: fixed;
+        top: 0;
+    }
+
+    body{
+        margin-top: 5rem;
+    }
+
+    .header--nav{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding: 1.7rem 2rem 1.3rem 2rem;
+    }
+
+    .nav--logo{
+        width: 12rem;
+    }
+
+    .full-width-wrapper{
+        gap: 1rem;
+    }
+
+    .full-width-wrapper--img{
+        max-height: 20rem;
+    }
+
+    .heading-wrapper{
+        padding: 5rem 5rem 2rem 5rem;
+    }
+
+    .heading-wrapper__medium{
+        padding: 0;
+    }
+
+    .pros--advantage{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .numbers--text-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 3rem 0;
+    }
+
+    .numbers--number{
+        margin: 0;
+    }
+
+    .numbers--desc{
+        width: 100%;
+    }
+
+    .image-with-desc--container{
+        align-items: center;
+    }
+
+    .image-with-desc--container img{
+        max-height: 25rem;
+    }
+
+    .what-makes-diff--container{
+        width: 15rem;
+    }
+
+    .what-makes-diff--container img{
+        width: 13rem;
+    }
+
+    .omarket{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .team{
+        justify-content: c;
+    }
+
+    .team--person-container{
+        width: 17.5rem;
+    }
+
+    .opinions--heading{
+        padding: 0;
+    }
+
+    .opinion-wrapper:nth-child(3){
+        display: none;
+    }
+
+    .brands--companies{
+        padding: 1rem 3rem;
+    }
+
+    .brands--companies img{
+        width: 9rem;
+    }
+
+    .footer--top{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer--section:first-child{
+        width: 100%;
+        padding-bottom: 3rem;
+    }
+
+    .footer--section:not(:first-child){
+        /* flex: 1; */
+    }
+}
+
+@media screen and (max-width: 769px) {
+    :root{
+        font-size: 10px;
+    }
+
+    .full-width-wrapper{
+        flex-direction: column;
+    }
+
+    .heading-wrapper{
+        padding: 8rem 1rem 0.5rem 1rem;
+        align-items: flex-start;
+    }
+
+    .heading-wrapper--heading{
+        font-size: 2.4rem;
+    }
+
+    .heading-wrapper--secondary-text{
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .heading-wrapper__medium{
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .full-width-wrapper{
+        padding: 0 1rem;
+    }
+
+    .full-width-wrapper--img{
+        width: 100%;
+        max-height: 100%;
+    }
+
+    .pros{
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .image-with-desc{
+        padding: 0 1rem;
+    }
+
+    .image-with-desc--container{
+        flex-direction: column-reverse;
+    }
+
+    .image-with-desc--text-wrapper{
+        width: 100%;
+    }
+
+    .what-makes-diff{
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .what-makes-diff--container{
+        width: 80%;
+    }
+
+    .what-makes-diff--container img{
+        width: 70%;
+    }
+
+    .what-makes-diff--heading{
+        font-size: 2rem;
+    }
+
+    .any-desc{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .omarket div{
+        flex-direction: column;
+    }
+
+    .omarket img{
+        width: 100%;
+        max-height: 100%;
+        margin: 3rem 0;
+    }
+
+    .image-with-desc--heading{
+        font-size: 2.5rem;
+    }
+
+    .image-with-desc--heading__small{
+        font-size: 1.7rem;
+    }
+
+    .image-with-desc--small-caps{
+        font-size: 1.4rem;
+    }
+
+    .image-with-desc--text-wrapper ul{
+        padding-left: 1.5rem;
+    }
+
+    .team{
+        padding: 0 1rem;
+    }
+
+    .team--person-container{
+        width: 100%;
+    }
+
+    .person-container--name{
+        font-size: 2rem;
+    }
+
+    .team--person-container p, .team--person-container a{
+        font-size: 1.7rem;
+    }
+
+    .opinions{
+        padding-left: 1.7rem;
+        padding-right: 1.7rem;
+    }
+
+    .opinions--heading{
+        font-size: 2.5rem;
+    }
+
+    .opinion.any-desc{
+        font-size: 1.7rem;
+    }
+
+    .opinion-wrapper:nth-child(2){
+        display: none;
+    }
+
+    .opinion-wrapper{
+        width: 100%;
+        padding: 2rem 3.5rem;
+        padding-bottom: 4rem;
+    }
+
+    .opinion--author-wrapper > img{
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+
+    .opinion--rating > img{
+        width: 10rem;
+    }
+
+    .opinion--author-name{
+        font-size: 1.7rem;
+    }
+
+    .opinion::before{
+        width: 2.25rem;
+        height: 2.25rem;
+        background-size: 2.25rem;
+        left: -3.5rem;
+        top: 2.75rem;
+    }
+
+    .brands--companies img{
+        width: 45%;
+    }
+
+    .get-started{
+        padding: 0;
+    }
+
+    .get-started--heading{
+        font-size: 2.5rem;
+    }
+
+    .get-started--desc{
+        width: 80%;
+    }
+
+    .get-started--parallax{
+        width: 100%;
+        border-radius: 0;
+        background-attachment: local;
+        gap: 2rem;
+    }
+
+    .btn{
+        font-size: 1.5rem;
+        padding: 1.25rem 3rem;
+    }
+
+    footer{
+        padding: 1rem;
+    }
+
+    .footer--section__wider img{
+        width: 13rem;
+    }
+
+    .footer--section:not(:first-child){
+        flex-basis: 50%;
+        margin-bottom: 2rem;
+    }
+
+    .footer--section .footer--heading{
+        font-size: 1.8rem;
+    }
+
+    .footer--section a{
+        font-size: 1.6rem;
+    }
+
+    .footer--section__socials img{
+        width: 2rem;
+    }
+
+    .footer--bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer--bottom p{
+        font-size: 1.5rem;
+        color: var(--secondary);
+    }
+
+    .footer--bottom *{
+        font-size: 1.5rem;
+    }
+}
