@@ -249,6 +249,14 @@
         width: 100%;
     }
 
+    .numbers--container{
+        padding: 0 1rem;
+    }
+
+    .numbers--desc{
+        font-size: 1.4rem;
+    }
+
     .what-makes-diff{
         flex-direction: column;
         align-items: center;
