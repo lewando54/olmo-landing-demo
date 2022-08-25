@@ -133,7 +133,8 @@
     }
 
     .image-with-desc--container img{
-        max-height: 25rem;
+        max-height: 35rem;
+        width: initial;
     }
 
     .what-makes-diff--container{
