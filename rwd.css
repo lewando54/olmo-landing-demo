@@ -242,6 +242,10 @@
         padding: 0 1rem;
     }
 
+    .image-with-desc--container img{
+        max-height: 25rem;
+    }
+
     .image-with-desc--container{
         flex-direction: column-reverse;
     }
